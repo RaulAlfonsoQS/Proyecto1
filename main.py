@@ -2,6 +2,8 @@
 from flask import Flask, jsonify, request
 from flask_mysqldb import MySQL
 
+print("hacer peticion a BBVA bancomer de saldo del cliente")
+
 # Creando la aplicación
 app = Flask(__name__)
 
